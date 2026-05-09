@@ -70,3 +70,8 @@ def calculate(a, b):
 
 
 calculate(7, 47)
+
+# SEARCHING: Local function ichidan → parametr dan
+# → Function Tashqarisidan
+# → Global
+# → Built-in
