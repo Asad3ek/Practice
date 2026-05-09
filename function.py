@@ -52,3 +52,21 @@ def greet(name, age=44):
 # CALL
 result1 = greet("Tom Hardy")
 print("Natija:", result1)
+
+
+print("==============SCOPE===============")
+'''
+Pythonda scope — o‘zgaruvchi (variable) qayerda “ko‘rinishi” va qayerdan unga murojaat qilish mumkinligini bildiradi.
+
+Oddiy qilib: Variable qayerda yaratilgan bo‘lsa, o‘sha hudud uning scope’i
+'''
+
+b = 200
+
+
+def calculate(a, b):
+    c = a + b * a
+    print(f"Value of C: {c}")
+
+
+calculate(7, 47)
