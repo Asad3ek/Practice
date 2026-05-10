@@ -22,7 +22,7 @@ course = "AI PYTHON fullstack "
 result = type(course)
 result1 = course.title()
 print(f"Course Title: {result1}, The type of course title: {result}")
-
+   
 result = course.replace("AI", "Artificial Intellegence").upper()
 print(result)
 
