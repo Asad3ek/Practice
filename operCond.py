@@ -12,6 +12,12 @@ print(a % b) #qoldiq qismini qaytaradi.
 print(a **2) # kvadrarini qaytaradi
 print(a **3) # kubini yani 3 darajasini qaytaradi
 
+
+
+
+print("====== Logical operators ======")
+
+
 age = 20 
 
 person = None
