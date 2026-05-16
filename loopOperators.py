@@ -36,7 +36,7 @@ print("======== while operator ========")
 import random
 compNum = random.randint(0, 100)
 
-count = 0 
+count = 1 
 userNum = int(input("Enter Number "))
 
 while compNum != userNum:
