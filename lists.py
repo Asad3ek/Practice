@@ -114,3 +114,14 @@ result = car_obj.items()
 for (key, value) in result:
     print(f"the key: {key} ")
     print(f"the value: {value} ")
+
+
+carss = [("BMW", 109),
+        ("Porsche", 56),
+        ("Mercedes", 79),
+         ("Lambarghine", 87)
+         ]
+
+result3 = map(lambda car_arr: car_arr[0], carss)
+new_car = list(result3)
+print("Result3:", new_car)
