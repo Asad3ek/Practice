@@ -1,0 +1,53 @@
+'''Comperhension 
+1. What is the comperhensions?
+'''
+
+print("========== What is the comperhensions & list comper =========")
+# Comperhentions act like spread operator
+
+'''
+comperhention geenral sytax:
+a. *iterable
+b. <expression> for item in iterabe
+c. <expression> for item in iterabe
+
+'''
+# List comperhension
+numbers = [2, 4, 6, 8, 10, 11]
+new_numbers = [*numbers]  # a version
+print("new_number:", new_numbers)
+print(new_numbers is numbers)
+print(f"id: {id(new_numbers)} and id of: {id(numbers)}")
+
+print("======= ====== ====== ====== ===== ===== ====")
+people = [("Anthony", 25), ("Josep", 19), ("Leyla", 20), ("Ben", 17)]  # tuples
+new_people = [person[0] for person in people]  # b version
+new_people.sort()
+print("new_people: ", new_people)
+
+print("======= ====== ====== ====== ===== ===== ====")
+cars = [("BMW", 109),
+        ("Porsche", 56),
+        ("Mercedes", 79),
+        ("Lambarghine", 87)
+        ]
+new_cars = [car[0] for car in cars if car[1] > 80]  # c version
+print(f"new_cars LIST: {new_cars}")
+
+print("============= set and dictionary comperhension ==============")
+numbs = [2, 4, 6, 8, 2, 4, 10, 11, 11]
+print("numbsList: ", numbs)
+new_numbs_list = {*numbs}  # a version
+print("setNumbs: ", new_numbs_list)
+
+print("======= ====== ====== ====== ===== ===== ====")
+dict_peole = {person[0] for person in people}  # b version
+print("dict_peole:", dict_peole)
+
+print("======= ====== ====== ====== ===== ===== ====")
+
+dict_peole2 = {person[0] for person in people if person[1] > 19}  # c version
+print("dict_peole2:", dict_peole2)
+
+# 3 ta comperhension sytax laridan foydalanib list | tuple | set | dictionary lar orqali
+# yangi object larni qurish imkoni mavjud.
